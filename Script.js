@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const heroTitle = document.querySelector(".hero-title");
-    const heroSubtitle = document.querySelector(
+    const heroSubtitle = document.querySelector(".hero-subtitle");
 
 
     // Initial Animation
@@ -14,4 +14,4 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     
-    }
+    
