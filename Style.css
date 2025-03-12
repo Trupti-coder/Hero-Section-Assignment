@@ -23,3 +23,11 @@ body, html {
     transform: translateY(-50px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out 0.5s, transform 1s ease-out 0.5s
+}
