@@ -31,3 +31,8 @@ body, html {
     transform: translateY(50px);
     transition: opacity 1s ease-out 0.5s, transform 1s ease-out 0.5s
 }
+
+.hero:hover .hero-title,
+.hero:hover .hero-subtitle {
+    transform: scale(1.05);
+}
