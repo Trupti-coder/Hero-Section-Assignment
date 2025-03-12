@@ -20,6 +20,11 @@ document.addEventListener("DOMContentLoaded", function() {
         const move = 25;
         const xMove = x / window.innerWidth * move - move / 2;
         const yMove = y / window.innerHeight * move - move / 2;
+
+        heroTitle.style.transform = `translate(${xMove}px, ${yMove}px)`;
+        heroSubtitle.style.transform = `translate(${xMove}px, ${yMove}px)`;
+    });
+});
     
     
     
