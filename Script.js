@@ -10,6 +10,16 @@ document.addEventListener("DOMContentLoaded", function() {
         heroSubtitle.style.opacity = '1';
         heroSubtitle.style.transform = 'translateY(0)';
     }, 500);
+
+
+
+
+    // Mouse Movement Effect
+    document.querySelector('.hero').addEventListener('mousemove', (event) => {
+        const { clientX: x, clientY: y } = event;
+        const move = 25;
+        const xMove = x / window.innerWidth * move - move / 2;
+        const yMove = y / window.innerHeight * move - move / 2;
     
     
     
